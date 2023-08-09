@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض بيانات المستخدمين</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .user {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        .user h3 {
+            margin: 0;
+        }
+
+        .user p {
+            margin: 5px 0;
+        }
+
+        .logout-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>بيانات المستخدمين المسجلين</h1>
+        <div id="usersList"></div>
+        <button class="logout-button" id="logoutButton">تسجيل الخروج للجميع</button>
+    </div>
+
+    <script>
+    const usersListElement = document.getElementById('usersList');
+    const logoutButton = document.getElementById('logoutButton');
+
+    // تحقق من حالة تسجيل الدخول عند تحميل الصفحة
+    checkLoginStatus();
+
+    function checkLoginStatus() {
+      const isLoggedIn = localStorage.getItem('isLoggedIn');
+      if (isLoggedIn === 'true') {
+        const team = localStorage.getItem('userTeam');
+        const registrationTime = new Date(localStorage.getItem('registrationTime'));
+        const userData = {
+          name: localStorage.getItem('userName'),
+          email: localStorage.getItem('userEmail'),
+          gender: localStorage.getItem('userGender'),
+          team: localStorage.getItem('userTeam'),
+          registrationTime: registrationTime.toLocaleString(),
+        };
+        displayUserData(userData);
+      }
+    }
+
+    function displayUserData(userData) {
+      const userElement = document.createElement('div');
+      userElement.className = 'user';
+      userElement.innerHTML = `
+        <h3>الاسم: ${userData.name}</h3>
+        <p>الايميل: ${userData.email}</p>
+        <p>الجنس: ${userData.gender}</p>
+        <p>الفرقة: ${userData.team}</p>
+        <p>تاريخ ووقت التسجيل: ${userData.registrationTime}</p>
+      `;
+      usersListElement.appendChild(userElement);
+    }
+
+    logoutButton.addEventListener('click', () => {
+      logoutAllUsers();
+    });
+
+    function logoutAllUsers() {
+      localStorage.clear();
+      redirectToHomePage();
+    }
+
+    function redirectToHomePage() {
+      const homePageURL = '../index.html'; // اضف رابط الصفحة الرئيسية هنا
+      window.location.href = homePageURL;
+    }
+    </script>
+</body>
+
+</html>

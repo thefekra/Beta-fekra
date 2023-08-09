@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fekra</title>
+  <link rel="stylesheet" href="../assets/css/books.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- ------------------------------------------- -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="../assets/imgs/LOGO.png" alt="Logo">
+      </a>
+    </div>
+    <div class="name">
+      <a href="#">
+        <h1>Fekra</h1>
+      </a>
+    </div>
+  </div>
+
+  <div class="sidebar-icon" onclick="toggleSidebar()">
+    <i class="fas fa-bars"></i>
+  </div>
+<div class="sidebar" id="sidebar">
+  <a href="../index.html">
+    <i class="fa-solid fa-house"></i>
+    <span> الصفحة الرئيسية</span>
+  </a>
+
+  <a href="../login/user.html">
+    <i class="fa-solid fa-user"></i>
+    <span>الحساب الشخصي</span>
+  </a>
+
+  <a href="../login/system.html">
+  <i class="fa-solid fa-hand"></i>
+    <span> المشرفين</span>
+  </a>
+<!--   
+  <a href="../login/hom-system.html">
+    <i class="fa-solid fa-users-gear"></i>
+    <span> الضبط</span>
+  </a> -->
+</div>
+
+<!-- ------------------------------------------ -->
+
+
+
+  <div class="tab-bar">
+    <div class="tab" onclick="switchTab('left')">
+      <span>الترم الثاني </span>
+    </div>
+    <div class="tab active right" onclick="switchTab('right')">
+      <span> الترم الاول</span>
+    </div>
+  </div>
+  <!-------------ملفات الترم الاول------------->
+<div id="content-right" class="tab-content active">
+  </div>
+
+  <!-------------ملفات الترم الثاني------------->
+    <div id="content-left" class="tab-content">
+    </div>
+
+    <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Fekra</p>
+    <div class="footer__social">
+      <!-- أيقونة فيسبوك من Font Awesome -->
+      <a href="#" class="footer__icon"><i class="fab fa-facebook" style="color: #ffffff;"></i></a>
+  
+      <!-- أيقونة تلجرام من Font Awesome -->
+      <a href="#" class="footer__icon"><i class="fab fa-telegram" style="color: #ffffff;"></i></a>
+  
+      <!-- أيقونة تويتر من Font Awesome -->
+      <a href="#" class="footer__icon"><i class="fab fa-twitter" style="color: #ffffff;"></i></a>
+    </div>
+    <p>&#169; 2023 Coding Fekra</p>
+  </footer>
+
+<script src="../assets/js/book1.js"></script>
+<script src="../assets/js/books.js"></script>
+
+
+</body>
+</html>

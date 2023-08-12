@@ -10,7 +10,6 @@ const booksDataRight = [
     { imgSrc: '../assets/imgs/55.jpg', downloadLink: 'https://download1519.mediafire.com/3a1e2htsyowgIGV_tTsib63cg2g0vqlsYHP_WQXT7KHNbbWy8oxKivcglTf5j3ETU7zMuZOipejGgzoaqwQbSuhfmmClb5Dx4fai1RAMmRnPN8A46oATe78W8-8QuLpJtP63Lpw_OWUdQBTMnSZi25vtYLA_G6CIJWDvczmE4Zqo6wg/8dapl0uk9ir1lnx/%D8%B7%D8%B1%D9%82+%D8%AA%D8%AF%D8%B1%D9%8A%D8%B3' },
     { imgSrc: '../assets/imgs/56.jpg', downloadLink: 'https://download1648.mediafire.com/s8vtzvia0xbgiJ9fOPL1qlEaeog8toCdR_9gdCqzp2rERZlnTWe5ccFFgZGmjqxzhQeqBEpaqhsJwo1SzG2xcB-NqPo5ebzRcQwMiqhLq4iHa_8uMLO0wDuAbGfrrHz_GeLIQZ-irnZu7UWBCwTG5MAlxqDQXNA9hxeJr9C5jRYwISU/rwgrtuv4o9iypcr/%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%B5%D8%AD%D9%8A%D8%A9' },
     { imgSrc: '../assets/imgs/57.jpg', downloadLink: 'https://download939.mediafire.com/f6zyuj0ktxhgx87BgbSHLpL_R5qDnOC-d9phHyMea58vGrgdzXpBZANSydRJvg_Wr631KVp_zkH3-tWA87hIU1rpKlvGFDGiGpNXb9B57gbi6919EGbaRZjqRFVcLPS3YUhNjw4Mx4QInUat-lXTiH1TErl2_6iGdl9b93Bwg5Af4lc/89yz769g4pq6o4v/%D9%83%D8%AA%D8%A8+%D8%B4%D8%B1%D8%AD+%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85+%D8%A7%D9%84%D8%B5%D9%81+%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3+%D9%88%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9+%D9%88%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB' },
-    { imgSrc: '../assets/imgs/58.jpg', downloadLink: 'https://download1588.mediafire.com/4xhsgq8zh3ngVJZ3H0lsBNLUbwjIcMFICapMyTpTneyy2SfuB4uRNoei_ti-HlPGu-LNwVUBiuHn0oeqVgeKKiphckJ8OdRjwxM3T_TxUxfC9mcHSgpydWgl9PyD8EIKREu3C3GVXihTjOsrzHTwLkCeuBmnDGLrMTN819NGk9auEEU/4it4mksv1ftuwen/%D9%85%D9%84%D9%81%D8%A7%D8%AA+%D8%B9%D8%A7%D9%85%D9%87+%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA' },
 
     // يمكنك إضافة المزيد من العناصر هنا
 
@@ -20,13 +19,13 @@ const booksDataRight = [
 
 // الكود الخاص بإنشاء الصناديق في الدف الأيسر
 const booksDataLeft = [
+    { imgSrc: '../assets/imgs/58.jpg', downloadLink: 'https://download1588.mediafire.com/4xhsgq8zh3ngVJZ3H0lsBNLUbwjIcMFICapMyTpTneyy2SfuB4uRNoei_ti-HlPGu-LNwVUBiuHn0oeqVgeKKiphckJ8OdRjwxM3T_TxUxfC9mcHSgpydWgl9PyD8EIKREu3C3GVXihTjOsrzHTwLkCeuBmnDGLrMTN819NGk9auEEU/4it4mksv1ftuwen/%D9%85%D9%84%D9%81%D8%A7%D8%AA+%D8%B9%D8%A7%D9%85%D9%87+%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA' },
     { imgSrc: '../assets/imgs/59.jpg', downloadLink: 'https://download1078.mediafire.com/nxlx14vitrsgj924WrIqMja4aHy4sETiNq2MQUKi81urk8mwG0RFSUGg6OsaMbM7kLc90dkT0c9u_UEt3QPp0DZPtusDvLURnjhqoTlh3JB_0fR2EsBddRXuDDpQTIDt5VxmeLl7z791BQhmKvWt4uiCy3YLJyVZk66UgSGDJYpU0bc/m884m73xx6klqq3/%D9%86%D8%A8%D8%A7%D8%AA' },
     { imgSrc: '../assets/imgs/60.jpg', downloadLink: 'https://download1586.mediafire.com/jze4staalu1goV5Mk_ohdiAmBvgSXrCUDlArvOUu9mnkpU0iMLk8pahgCTGnN66bvaWVRkcmapXM_C75vawb8N3YVUBk2xcrz2R_RG_XF_jA6wrJ--S-ZHFX_TV5tTrj0B39yf3p96c58Z2ZySFr-pfwwLkYNLqDdKpQtJmL-qBdAL8/6op15xklygj71p3/%D8%AD%D9%8A%D9%88%D8%A7%D9%86' },
     { imgSrc: '../assets/imgs/61.jpg', downloadLink: 'https://download1501.mediafire.com/utyqvawwmsrgqkQsaDRucsCoRppDmptm8I3GtLbvitJJ99yJ3mwVP-MY5eiT-PyqzGWYmh6uVR2uceR_44Mz0RMi3fFr81MIeKGMNoKalv7x-0RlsIUFkpZNuodBq2XE4XmpuxRn_5eH5xthmL5o2bYvJqvuV_j9oSBlP2OhIK1YSII/gwt30tax03f57nm/%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9' },
     { imgSrc: '../assets/imgs/62.jpg', downloadLink: 'https://download1509.mediafire.com/m4p1o5balaugb6-JOuqZIAb0kBqbCiqlPrB8Oyvj-XuBEPADVwYcbZZlxH16n83jd8_nTouSFjf7uTYVmpm5twL6g-dilZy7LCJJIo5iLxGXaDiP3PEWVb28y_GmqqfVEQK4sqA0q8E9cJo5BHpNB0AfVh1OsWODdeiH7QpqP8_PhTM/8tregn29dekki4d/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9+%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9' },
     { imgSrc: '../assets/imgs/63.jpg', downloadLink: 'https://download1085.mediafire.com/a0rtvessestg-OBJkPOX9zzvWv34Olpkn3DOnYQslW31RFun1hmHTQAvpoP76-6DtSmI7_4Hwa9-j8PB8--wdiCJPmc_0746uWps0dGplIBXAg8lcjX-KLu4YYukX_O3uN5m9_9XduHYGvNs7ND6SF9TQTHCO0MAVlz59HGF6IoK5As/2tjmkndwdqfu1tq/%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A' },
     { imgSrc: '../assets/imgs/64.jpg', downloadLink: 'https://download857.mediafire.com/7ja3c7o0rlcglaahACpH1atOl1xLVWFyzo7Ak3s7ncyGcXyCir7WJS0wzjZdIYEZU3-i79nQWl5YmU4LRMizrtN-jJ6IHT5i9N9gIJw1PtqQPN3lzRkwtUSl9S3DbX_cg6mDPYVzFgAmVlzzoNdBWt6SaJFMrQvyxR2mt0Qcl7j85ro/f7gjrave287xg52/%D8%AD%D8%AF%D9%8A%D8%AB' },
-    { imgSrc: '../assets/imgs/65.jpg', downloadLink: 'https://download1078.mediafire.com/y4q3bjbp8aygJEU5my_DTlA7oeI4fO2vT7kEfJN37zhySamw-R3-fFq8-8Qn4AMuPzQIcAQU7heN4leWPz9BCUaCsSviDlXOX1FGbJzEDJN8_Nq-j_l_10okfKbL45VVS4drb1aRLe-Kk_mZ8AT6UMTFUiDkqXcfrnxMQtcO4e2aP0Y/jpn22d6rgyonjzu/%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA' },
 
     // يمكنك إضافة المزيد من العناصر هنا للدف الأيسر
 ];

